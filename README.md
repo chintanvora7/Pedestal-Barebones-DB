@@ -36,6 +36,18 @@ user=> (reset)
 user=> (test)
 ```
 
+### Database
+
+Pass the DB connection info in config.clj to get started. Will throw PG Exception if no database is present
+
+```
+:db {:name ""
+        :username ""
+        :password ""
+        :host ""
+        :port 5432}
+```
+
 ### Deployable
 
 ```
